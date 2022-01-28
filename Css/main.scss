@@ -1,0 +1,49 @@
+.homepage{
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainForm{
+    border: 2px solid grey;
+    width: 50%;  
+    height: 92vh;
+}
+
+.leftBar{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid grey;  
+    width: 25%;  
+    height: 92vh;
+}
+
+.rightBar{
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid grey;
+    width: 25%;  
+    height: 92vh;
+    
+}
+
+.topNav{
+    color: white;
+    background-color: #08262E;
+    width: 100vw;
+    height: 6vh;
+}
+
+.flex{
+    justify-content: space-between;
+    display: flex;
+    flex-direction:row ;
+}
+
+
+.rightNavContent{
+    margin: auto;    
+}
+
+.button{
+    cursor: pointer;
+}
