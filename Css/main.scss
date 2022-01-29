@@ -4,6 +4,8 @@
 }
 
 .mainForm{
+    padding-left: 2vw;
+    padding-right: 2vw;
     border: 2px solid grey;
     width: 50%;  
     height: 92vh;
@@ -27,6 +29,7 @@
 }
 
 .topNav{
+    padding-left: 2rem;
     color: white;
     background-color: #08262E;
     width: 100vw;
@@ -46,4 +49,24 @@
 
 .button{
     cursor: pointer;
+}
+
+.tab{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    width: 7vw;
+    height: 4vh;
+    border: 1px solid black;
+}
+
+.tabs{
+    display: flex;
+    direction: row;
+
+}
+
+.content{
+    margin-top: 2rem;
 }
