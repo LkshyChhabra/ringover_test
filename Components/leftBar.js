@@ -24,16 +24,16 @@ function onclick(){
             <p>www.youtube.com/ringover</p>
             Idian Startup (+5:30)
             <div className="flex">
-                <Button onClick={onclick} text="a" onClick={()=>{
+                <Button onClick={onclick} text="Video" onClick={()=>{
                     props.onClick(0)
                 }}/>
-                <Button onClick={onclick} text="b" onClick={()=>{
+                <Button onClick={onclick} text="Calender" onClick={()=>{
                     props.onClick(1)
                 }}/>
-                <Button onClick={onclick} text="c" onClick={()=>{
+                <Button onClick={onclick} text="Mail" onClick={()=>{
                     props.onClick(2)
                 }}/>
-                <Button onClick={onclick} text="d" onClick={()=>{
+                <Button onClick={onclick} text="Flag" onClick={()=>{
                     props.onClick(3)
                 }}/>
             </div>
